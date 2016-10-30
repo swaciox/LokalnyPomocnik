@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.verunex.lokalnypomocnik.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:background="@color/colorButtonBackground">
+
+        </RelativeLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:orientation="vertical"
+            android:layout_marginTop="357dp">
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#90000000" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabBackground="@color/colorButtonBackground"
+                app:tabTextColor="@color/unSelectedColorText"
+                app:tabTextAppearance="@style/TabTextStyle"
+                app:tabSelectedTextColor="@color/selectedColorText"
+                android:layout_above="@+id/container"
+                android:layout_alignParentStart="true"
+                app:tabIndicatorColor="@color/tabIndicatorColor"
+                app:tabIndicatorHeight="2dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
