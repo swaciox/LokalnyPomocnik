@@ -5,4 +5,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Teksty do buttonów i edittextów -->
+
+    <string name="button_zaloguj">Zaloguj</string>
+    <string name="email">E-mail</string>
+    <string name="haslo">Hasło</string>
+    <string name="button_zarejestruj">Zarejestruj</string>
+    <string name="nazwaUzytkownika">Nazwa użytkownika</string>
 </resources>
