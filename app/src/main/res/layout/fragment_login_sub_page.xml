@@ -31,7 +31,7 @@
         <EditText
             android:layout_width="310dp"
             android:layout_height="45dp"
-            android:inputType="textPassword"
+            android:inputType="textEmailAddress"
             android:ems="10"
             android:id="@+id/editText2"
             android:hint="@string/email"
@@ -49,7 +49,8 @@
             android:layout_marginLeft="-5dp"
             android:layout_height="42dp"
             android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            tools:ignore="RtlHardcoded" />
 
         <EditText
             android:layout_width="310dp"
@@ -70,7 +71,6 @@
             android:src="@drawable/ic_mail_outline"
             android:id="@+id/imageView2"
             android:layout_width="32dp"
-            android:layout_marginLeft="0dp"
             android:layout_height="32dp"
             android:layout_alignTop="@+id/editText2"
             android:layout_alignParentStart="true" />
@@ -87,7 +87,7 @@
         <Button
             android:text="@string/button_zarejestruj"
             android:textColor="@color/colorTextIcons"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:fontFamily="sans-serif"
             android:layout_height="60dp"
             android:id="@+id/buttonZarejestruj"
