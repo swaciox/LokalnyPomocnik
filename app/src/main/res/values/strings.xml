@@ -12,5 +12,6 @@
     <string name="email">E-mail</string>
     <string name="haslo">Hasło</string>
     <string name="button_zarejestruj">Zarejestruj</string>
-    <string name="nazwaUzytkownika">Nazwa użytkownika</string>
+    <string name="nazwa_uzytkownika">Nazwa użytkownika</string>
+
 </resources>
